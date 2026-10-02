@@ -1,0 +1,7 @@
+# Needs Redis 8+ (ships the Vector Set type: VADD/VSIM). `brew install redis`.
+redis>=5.0
+fastapi>=0.110
+uvicorn[standard]>=0.29
+requests>=2.31
+pytest>=8.0
+httpx>=0.27
